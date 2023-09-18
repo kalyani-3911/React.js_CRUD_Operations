@@ -1,0 +1,140 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #64c385; /* Background color for the entire page */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+   /* Background color for the main content area */
+}
+
+h1 {
+  color: #333;
+}
+
+.user {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 30px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f6a0e9; /* Background color for user cards */
+}
+
+.user img {
+  border-radius: 2%;
+  margin-right: 10px;
+  margin: 2px;
+  width: 150px; /* Make them 100% width */
+  padding: 0px;
+  background-color: #fff;
+  color: #333;
+
+}
+
+.user h3 {
+  margin: 20;
+  color: #333;
+  width: 95%; /* Make them 100% width */
+  padding: 9px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.user p {
+  width: 95%; /* Make them 100% width */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 20;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* App.css */
+
+/* Style for the EditUserForm */
+.new-user-form {
+background-color: #f6a0e9;
+border: 1px solid #ccc;
+padding: 20px;
+margin: 20px;
+width: 300px;
+float: right; /* Align to the left of the user list */
+}
+
+.new-user-form h2 {
+margin-top: 0;
+font-size: 1.5rem;
+}
+
+.new-user-form .form-group {
+margin-bottom: 10px;
+}
+
+.new-user-form label {
+display: block;
+font-weight: bold;
+}
+
+/* Shorten the input fields */
+.new-user-form input[type="text"],
+.new-user-form input[type="email"] {
+width: 70%; /* Make them 100% width */
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+
+/* Additional styling for buttons and form actions */
+.new-user-form .form-actions {
+text-align: right;
+margin-top: 10px;
+}
+
+.new-user-form button {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.new-user-form button[type="button"] {
+background-color: #007bff;
+margin-right: 40px;
+}
+
+
+/* Clear floats for proper layout */
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
